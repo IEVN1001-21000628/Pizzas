@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import  AgregarComponent  from './pizzeria/agregar/agregar.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [AgregarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
